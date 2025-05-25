@@ -13,9 +13,9 @@ import java.util.HashSet;
  */
 public class Searches {
 
+    // Array to perform opertions on
+    // note that is by default null, requiring null checks
     private char[] array;
-
-
 
     /**
      * Iterative implementation of binary search, will return the
