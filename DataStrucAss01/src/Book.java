@@ -1,5 +1,3 @@
-import java.util.Scanner;
-
 /**
  * Parent class for fiction, non-fiction, and reference books
  * contains general logic for child classes
@@ -36,7 +34,7 @@ public abstract class Book {
 
     /**
      * Check if two books are the same
-     * @param
+     * @param code the code to check if equal
      * @return true if same, false if not
      */
     public boolean isEqual (int code) {
@@ -45,24 +43,9 @@ public abstract class Book {
     }
 
     /**
-     * Add a book into the catalogue
-     * @param sc to read user input
-     * @return true if success, false if not
+     * MEthod to turn book into readable string
+     * @return the stringified book
      */
-    public boolean addBook (Scanner sc) {
-        return false;
-    }
-
-    /**
-     * Method to get a code input for a book
-     * @param sc to read user input
-     * @return parsed user input
-     */
-    public int inputCode (Scanner sc) {
-        int i = Integer.parseInt(sc.nextLine());
-        return i;
-    }
-
     public String toString () {
         return  "Book Code: " + bookCode +
                 " | Quantity: " + quantityInStock +
@@ -71,8 +54,16 @@ public abstract class Book {
                 " | Genre: " + genre;
     }
 
+    /**
+     * Quantity getter
+     * @return the quantity
+     */
     public int getQuantity () {return this.quantityInStock;}
 
+    /**
+     * bookID getter
+     * @return the bookID
+     */
     public int getCode () {return this.bookCode;}
 }
 
