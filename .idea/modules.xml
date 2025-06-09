@@ -4,6 +4,9 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/AndreiSchool.iml" filepath="$PROJECT_DIR$/.idea/AndreiSchool.iml" />
       <module fileurl="file://$PROJECT_DIR$/DataStrucAss01/DataStrucAss01.iml" filepath="$PROJECT_DIR$/DataStrucAss01/DataStrucAss01.iml" />
+      <module fileurl="file://$PROJECT_DIR$/DataStrucAss02/DataStrucAss02.iml" filepath="$PROJECT_DIR$/DataStrucAss02/DataStrucAss02.iml" />
+      <module fileurl="file://$PROJECT_DIR$/DataStrucLab01/DataStrucLab01.iml" filepath="$PROJECT_DIR$/DataStrucLab01/DataStrucLab01.iml" />
+      <module fileurl="file://$PROJECT_DIR$/DataStrucLab03/DataStrucLab03.iml" filepath="$PROJECT_DIR$/DataStrucLab03/DataStrucLab03.iml" />
     </modules>
   </component>
 </project>
