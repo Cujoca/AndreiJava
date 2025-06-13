@@ -7,76 +7,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6b311ec3-f978-4aa0-9f7c-1e3ea9b9ada1" name="Changes" comment="Sends entire module to git, mainly unversioned files&#10;adds JavaDoc files for Assignment 1">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DataStrucAss02/DataStrucAss02.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DataStrucAss02/JavaDocs/Assign1.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DataStrucAss02/JavaDocs/Book.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DataStrucAss02/JavaDocs/FictionBook.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DataStrucAss02/JavaDocs/Library.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DataStrucAss02/JavaDocs/NonFictionBook.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DataStrucAss02/JavaDocs/ReferenceBook.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DataStrucAss02/JavaDocs/allclasses-index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DataStrucAss02/JavaDocs/allpackages-index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DataStrucAss02/JavaDocs/copy.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DataStrucAss02/JavaDocs/element-list" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DataStrucAss02/JavaDocs/help-doc.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DataStrucAss02/JavaDocs/index-files/index-1.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DataStrucAss02/JavaDocs/index-files/index-10.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DataStrucAss02/JavaDocs/index-files/index-11.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DataStrucAss02/JavaDocs/index-files/index-12.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DataStrucAss02/JavaDocs/index-files/index-2.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DataStrucAss02/JavaDocs/index-files/index-3.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DataStrucAss02/JavaDocs/index-files/index-4.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DataStrucAss02/JavaDocs/index-files/index-5.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DataStrucAss02/JavaDocs/index-files/index-6.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DataStrucAss02/JavaDocs/index-files/index-7.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DataStrucAss02/JavaDocs/index-files/index-8.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DataStrucAss02/JavaDocs/index-files/index-9.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DataStrucAss02/JavaDocs/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DataStrucAss02/JavaDocs/legal/ADDITIONAL_LICENSE_INFO" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DataStrucAss02/JavaDocs/legal/ASSEMBLY_EXCEPTION" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DataStrucAss02/JavaDocs/legal/LICENSE" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DataStrucAss02/JavaDocs/legal/jquery.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DataStrucAss02/JavaDocs/legal/jqueryUI.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DataStrucAss02/JavaDocs/link.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DataStrucAss02/JavaDocs/member-search-index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DataStrucAss02/JavaDocs/module-search-index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DataStrucAss02/JavaDocs/overview-tree.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DataStrucAss02/JavaDocs/package-search-index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DataStrucAss02/JavaDocs/package-summary.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DataStrucAss02/JavaDocs/package-tree.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DataStrucAss02/JavaDocs/resources/glass.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DataStrucAss02/JavaDocs/resources/x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DataStrucAss02/JavaDocs/script-dir/jquery-3.7.1.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DataStrucAss02/JavaDocs/script-dir/jquery-ui.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DataStrucAss02/JavaDocs/script-dir/jquery-ui.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DataStrucAss02/JavaDocs/script.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DataStrucAss02/JavaDocs/search-page.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DataStrucAss02/JavaDocs/search.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DataStrucAss02/JavaDocs/search.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DataStrucAss02/JavaDocs/stylesheet.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DataStrucAss02/JavaDocs/tag-search-index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DataStrucAss02/JavaDocs/type-search-index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DataStrucAss02/src/Assign2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DataStrucAss02/src/Book.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DataStrucAss02/src/BookTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DataStrucAss02/src/FictionBook.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DataStrucAss02/src/Library.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DataStrucAss02/src/LibraryTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DataStrucAss02/src/NonFictionBook.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DataStrucAss02/src/ReferenceBook.java" afterDir="false" />
+    <list default="true" id="6b311ec3-f978-4aa0-9f7c-1e3ea9b9ada1" name="Changes" comment="formatting and comment addition to Searches.java for the array definition">
       <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DataStrucAss01/JavaDocs/Assign1.html" beforeDir="false" afterPath="$PROJECT_DIR$/DataStrucAss01/JavaDocs/Assign1.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DataStrucAss01/JavaDocs/allclasses-index.html" beforeDir="false" afterPath="$PROJECT_DIR$/DataStrucAss01/JavaDocs/allclasses-index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DataStrucAss01/JavaDocs/index-files/index-1.html" beforeDir="false" afterPath="$PROJECT_DIR$/DataStrucAss01/JavaDocs/index-files/index-1.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DataStrucAss01/JavaDocs/index-files/index-7.html" beforeDir="false" afterPath="$PROJECT_DIR$/DataStrucAss01/JavaDocs/index-files/index-7.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DataStrucAss01/JavaDocs/overview-tree.html" beforeDir="false" afterPath="$PROJECT_DIR$/DataStrucAss01/JavaDocs/overview-tree.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DataStrucAss01/JavaDocs/package-summary.html" beforeDir="false" afterPath="$PROJECT_DIR$/DataStrucAss01/JavaDocs/package-summary.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DataStrucAss01/JavaDocs/package-tree.html" beforeDir="false" afterPath="$PROJECT_DIR$/DataStrucAss01/JavaDocs/package-tree.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DataStrucLab01/DataStrucLab01.iml" beforeDir="false" afterPath="$PROJECT_DIR$/DataStrucLab01/DataStrucLab01.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DataStrucLab03/DataStrucLab03.iml" beforeDir="false" afterPath="$PROJECT_DIR$/DataStrucLab03/DataStrucLab03.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DataStrucAss02/src/Book.java" beforeDir="false" afterPath="$PROJECT_DIR$/DataStrucAss02/src/Book.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DataStrucAss02/src/BookTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/DataStrucAss02/src/BookTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DataStrucAss02/src/FictionBook.java" beforeDir="false" afterPath="$PROJECT_DIR$/DataStrucAss02/src/FictionBook.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DataStrucAss02/src/Library.java" beforeDir="false" afterPath="$PROJECT_DIR$/DataStrucAss02/src/Library.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DataStrucAss02/src/NonFictionBook.java" beforeDir="false" afterPath="$PROJECT_DIR$/DataStrucAss02/src/NonFictionBook.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DataStrucAss02/src/ReferenceBook.java" beforeDir="false" afterPath="$PROJECT_DIR$/DataStrucAss02/src/ReferenceBook.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -106,36 +45,36 @@
   &quot;associatedIndex&quot;: 1
 }</component>
   <component name="ProjectId" id="2sNAkEh8sgylEAjaYKTapSODGYo" />
-  <component name="ProjectLevelVcsManager">
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
   </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Application.Assign1.executor": "Run",
-    "Application.BubbleSort.executor": "Run",
-    "Downloaded.Files.Path.Enabled": "false",
-    "Repository.Attach.Annotations": "false",
-    "Repository.Attach.JavaDocs": "false",
-    "Repository.Attach.Sources": "false",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
-    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
-    "create.test.in.the.same.root": "true",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/andre/IdeaProjects/AndreiSchool/DataStrucLab03",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.Assign1.executor&quot;: &quot;Run&quot;,
+    &quot;Application.BubbleSort.executor&quot;: &quot;Run&quot;,
+    &quot;Downloaded.Files.Path.Enabled&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.Annotations&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.JavaDocs&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.Sources&quot;: &quot;false&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary&quot;: &quot;JUnit5&quot;,
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5&quot;: &quot;&quot;,
+    &quot;create.test.in.the.same.root&quot;: &quot;true&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/andre/IdeaProjects/AndreiSchool/DataStrucLab03&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\andre\IdeaProjects\AndreiSchool\DataStrucAss02" />
@@ -148,7 +87,7 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.BubbleSort">
+  <component name="RunManager">
     <configuration name="Assign1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Assign1" />
       <module name="DataStrucAss01" />
@@ -156,16 +95,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="BubbleSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="BubbleSort" />
-      <module name="DataStrucAss02" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.BubbleSort" />
         <item itemvalue="Application.Assign1" />
       </list>
     </recent_temporary>
@@ -241,6 +172,7 @@
     <MESSAGE value="Adds Files for assignment 1 in Data Structures&#10;Book - abstract parent to define the idea of a book&#10;     - ReferenceBook - class for a type of book which cannot be borrowed and is locked to 1 quantity&#10;     - FictionBook - type of book which is of the fiction genre&#10;     - NonFictionBook - type of book which is of the Non Fiction genre&#10;Library - class to hold storage of Books with logic to support&#10;Assign1 - class to hold main method" />
     <MESSAGE value="Some cleanup for Assignment 01&#10;removed useless methods Book.addBook, Book.inputCode&#10;added JUnit tests for Library and Book class" />
     <MESSAGE value="Sends entire module to git, mainly unversioned files&#10;adds JavaDoc files for Assignment 1" />
-    <option name="LAST_COMMIT_MESSAGE" value="Sends entire module to git, mainly unversioned files&#10;adds JavaDoc files for Assignment 1" />
+    <MESSAGE value="formatting and comment addition to Searches.java for the array definition" />
+    <option name="LAST_COMMIT_MESSAGE" value="formatting and comment addition to Searches.java for the array definition" />
   </component>
 </project>

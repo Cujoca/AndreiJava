@@ -37,8 +37,21 @@ public class ReferenceBook extends Book{
                 " | Topic: " + topic;
     }
 
-
-
-
-
+    /**
+     * Overridden method to return a book as a string array containing members of book
+     * this version specifically places a string 'r' in the first slot designating
+     * it a Reference book, also including the book's topic at the end
+     * @return the string array
+     */
+    @Override
+    public String[] toStorage() {
+        String[] out = new String[6];
+        out[0] = "f";
+        out[1] = Integer.toString(bookCode);
+        out[2] = title;
+        out[3] = Integer.toString(quantityInStock);
+        out[4] = author;
+        out[5] = topic;
+        return out;
+    }
 }

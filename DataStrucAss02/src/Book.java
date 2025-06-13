@@ -57,17 +57,26 @@ public abstract class Book implements Comparable<Book> {
     }
 
     /**
-     * Method to return the book in string form for storage in text file
-     * @return contents of the book limited by commas
+     * Returns the book as an array of strings for storage in a file
+     * @return string array containing members of book
      */
-    public String toCSV () {
-        return bookCode+","+quantityInStock+","+title+","+author+","+genre;
+    public String[] toStorage () {
+        String[] out = new String[5];
+        out[0] = genre;
+        out[1] = Integer.toString(bookCode);
+        out[2] = title;
+        out[3] = Integer.toString(quantityInStock);
+        out[4] = author;
+        return out;
     }
 
+    /**
+     * CompareTo method to compare two books by their id code
+     * @param other the object to be compared.
+     * @return 0 > if this is smaller, 0 < if larger, 0 if same
+     */
     @Override
-    public int compareTo (Book other) {
-        return Integer.compare(this.bookCode, other.getCode());
-    }
+    public int compareTo (Book other) {return this.getCode() - other.getCode();}
 
 
 

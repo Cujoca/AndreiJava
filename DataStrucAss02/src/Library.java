@@ -50,7 +50,13 @@ public class Library {
      * @return success or failure
      */
     public boolean addInOrder (Book b) {
+        if (catalogue.contains(b)) return false;
+        if (catalogue.get(catalogue.size()/2).compareTo(b) > 0) {
+            int i = catalogue.size()-1;
+            while (catalogue.get(i).compareTo(b) > 0) {
 
+            }
+        }
         return false;
     }
 
@@ -119,7 +125,7 @@ public class Library {
             if (topic.equals("")) {
                 System.out.println("Invalid entry");
                 return false;
-            } temp = new FictionBook(id, quant, title, author, topic);}
+            } temp = new FictionBook(id, quant, title, author);}
 
         else if (isRef) {
             // check if topic was successfully entered
@@ -128,7 +134,7 @@ public class Library {
                 return false;
             } temp = new ReferenceBook(id, quant, title, author, topic);}
 
-        else temp = new NonFictionBook(id, quant, title, author);
+        else temp = new NonFictionBook(id, quant, title, author, topic);
 
         // if user input invalid genre then book will be null
         // in this case inform user and return false
@@ -138,7 +144,7 @@ public class Library {
         }
 
         // finally add book to catalogue, increment index, and return true
-        catalogue.add(temp);
+        this.addInOrder(temp);
         return true;
     }
 
@@ -308,8 +314,9 @@ public class Library {
         BufferedWriter writer = new BufferedWriter(new FileWriter(file));
         // iterate through catalogue and write all books into file
         for (Book b : catalogue) {
-            writer.write(b.toString());
-            writer.newLine();
+            for (String e : b.toStorage()) {
+                writer.write(e + "\n");
+            }
         }
         // close writer to enact all changes
         writer.close();
@@ -327,20 +334,53 @@ public class Library {
                 Enter in the name of the file you'd like to read from.
                 Please note that if the file does not exist, this operation will not complete.""");
 
+        // get file location
         String name = sc.nextLine();
         File file = new File("./Resources/"+name);
+        // check if user is dumb and put file that doesn't exist
         if (!file.exists()) {
             System.out.println("That file does not exist");
             return;
         }
 
+        // clear catalogue to prepare for import of info
+        catalogue.clear();
         BufferedReader reader = new BufferedReader(new FileReader(file));
+        // get first line, which should be the genre of book
         String temp = reader.readLine();
+        // members of our book
+        int quantity;
+        int code;
+        String title;
+        String author;
+        String topic;
         while (temp != null) {
-
-
-
-
+            // if next line after whole book isn't a one letter code, go to next line
+            if (temp.length() > 1) {temp = reader.readLine();}
+            // get char version of genre for switch
+            char type = temp.charAt(0);
+            // all 3 types of books share the same order for the
+            // code, title, quant, and author. so we can read those regardless
+            code = Integer.parseInt(reader.readLine());
+            title = reader.readLine();
+            quantity = Integer.parseInt(reader.readLine());
+            author = reader.readLine();
+            // based on type of book, read last line for topic (or don't)
+            // create related type of book, and add to catalogue
+            switch (type) {
+                case 'n':
+                    topic = reader.readLine();
+                    this.addInOrder(new NonFictionBook(code, quantity, title, author, topic));
+                    break;
+                case 'r':
+                    topic = reader.readLine();
+                    this.addInOrder(new ReferenceBook(code, quantity, title, author, topic));
+                    break;
+                case 'f':
+                    this.addInOrder(new FictionBook(code, quantity, title, author));
+            }
+            // move temp to next line
+            temp = reader.readLine();
         }
     }
 }
