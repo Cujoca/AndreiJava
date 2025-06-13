@@ -51,13 +51,19 @@ public class Library {
      */
     public boolean addInOrder (Book b) {
         if (catalogue.contains(b)) return false;
-        if (catalogue.get(catalogue.size()/2).compareTo(b) > 0) {
-            int i = catalogue.size()-1;
-            while (catalogue.get(i).compareTo(b) > 0) {
-
-            }
+        int i = catalogue.size() - 1;
+        // iterate down the catalogue until we find the location it needs to be in
+        while (catalogue.get(i).compareTo(b) > 0) {
+            // if is first element, add it back to the catalogue in case at max capacity
+            if (i == catalogue.size() - 1) catalogue.add(catalogue.get(i));
+            catalogue.set(i+1, catalogue.get(i));
+            i--;
         }
-        return false;
+        // set the proper index to be the new book
+        // if is at the end, use ArrayList.add in case at max capacity
+        if (i == catalogue.size() - 1) catalogue.add(b);
+        else catalogue.set(i+1, b);
+        return true;
     }
 
     /**
@@ -252,12 +258,19 @@ public class Library {
 
     /**
      * Method to find the index of a specific book
-     * @param find the book being requested
+     * @param sc scanner to take user input
      * @return the index of the book
      */
-    public int findBook (Book find) {
+    public int findBook (Scanner sc) {
+        int findCode = -1;
         // get the requested code
-        int findCode = find.getCode();
+        System.out.println("Enter the ID of the book you'd like to find: ");
+        try {
+            findCode = Integer.parseInt(sc.nextLine());
+        } catch (NumberFormatException e) {
+            System.out.println("There was an invalid input");
+            return -1;
+        }
 
         // get index of requested book
         int out = this.binaryHelper(0, catalogue.size(), findCode);

@@ -8,14 +8,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6b311ec3-f978-4aa0-9f7c-1e3ea9b9ada1" name="Changes" comment="formatting and comment addition to Searches.java for the array definition">
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DataStrucAss02/src/Book.java" beforeDir="false" afterPath="$PROJECT_DIR$/DataStrucAss02/src/Book.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DataStrucAss02/src/BookTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/DataStrucAss02/src/BookTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DataStrucAss02/src/FictionBook.java" beforeDir="false" afterPath="$PROJECT_DIR$/DataStrucAss02/src/FictionBook.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DataStrucAss02/src/Assign2.java" beforeDir="false" afterPath="$PROJECT_DIR$/DataStrucAss02/src/Assign2.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/DataStrucAss02/src/Library.java" beforeDir="false" afterPath="$PROJECT_DIR$/DataStrucAss02/src/Library.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DataStrucAss02/src/NonFictionBook.java" beforeDir="false" afterPath="$PROJECT_DIR$/DataStrucAss02/src/NonFictionBook.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DataStrucAss02/src/ReferenceBook.java" beforeDir="false" afterPath="$PROJECT_DIR$/DataStrucAss02/src/ReferenceBook.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
