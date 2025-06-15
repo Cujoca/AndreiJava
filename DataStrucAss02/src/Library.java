@@ -271,6 +271,8 @@ public class Library {
         // if is -1, then doesn't exist
         if (out < 0) {return -1;}
         // output found index
+        System.out.println(catalogue.get(out).toString());
+        System.out.println("This was book number: " + (out+1));
         return out;
     }
 

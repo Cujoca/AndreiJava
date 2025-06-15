@@ -34,7 +34,7 @@ public class ReferenceBook extends Book{
                 " | Title: " + title +
                 " | Author: " + author +
                 " | Genre: " + genre +
-                " | Topic: " + topic;
+                " | Edition: " + topic;
     }
 
     /**

@@ -29,6 +29,20 @@ public class NonFictionBook extends Book {
     }
 
     /**
+     * method to return this book as a string
+     * @return stringified book
+     */
+    @Override
+    public String toString () {
+        return  "Book Code: " + bookCode +
+                " | Quantity: " + quantityInStock +
+                " | Title: " + title +
+                " | Author: " + author +
+                " | Genre: " + genre +
+                " | Topic: " + topic;
+    }
+
+    /**
      * Overridden method to return a book as a string array containing members of book
      * this version specifically places a string 'n' in the first slot designating
      * it a Non-Fiction book, also including the book's topic at the end
