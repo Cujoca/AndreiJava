@@ -51,18 +51,12 @@ public class Library {
      */
     public boolean addInOrder (Book b) {
         if (catalogue.contains(b)) return false;
-        int i = catalogue.size() - 1;
-        // iterate down the catalogue until we find the location it needs to be in
-        while (catalogue.get(i).compareTo(b) > 0) {
-            // if is first element, add it back to the catalogue in case at max capacity
-            if (i == catalogue.size() - 1) catalogue.add(catalogue.get(i));
-            catalogue.set(i+1, catalogue.get(i));
-            i--;
-        }
-        // set the proper index to be the new book
-        // if is at the end, use ArrayList.add in case at max capacity
-        if (i == catalogue.size() - 1) catalogue.add(b);
-        else catalogue.set(i+1, b);
+
+        int i = catalogue.size();
+        // decrement i until we find a book with a smaller code than our addition
+        while (i > 0 && catalogue.get(i-1).compareTo(b) > 0) {i--;}
+
+        catalogue.add(i, b);
         return true;
     }
 
@@ -78,8 +72,8 @@ public class Library {
         String title;
         String author;
         String topic = "";
-        Boolean isRef = false;
-        Boolean isFic = false;
+        boolean isRef = false;
+        boolean isNon = false;
 
         System.out.println("What genre of book are you adding?");
         System.out.println("r for Reference, n for NonFiction, f for Fiction");
@@ -90,8 +84,8 @@ public class Library {
         }
         switch (type.charAt(0)) {
             case 'r' -> isRef = true;
-            case 'f' -> isFic = true;
-            case 'n' -> isRef = false;
+            case 'n' -> isNon = true;
+            case 'f' -> isRef = false;
             default -> {
                 System.out.println("Invalid option entered");
                 return false;
@@ -112,7 +106,7 @@ public class Library {
             System.out.println("Enter the author of the book: ");
             author = sc.nextLine();
 
-            if (isFic || isRef) {
+            if (isNon || isRef) {
                 System.out.println("Enter the topic of the book: ");
                 topic = sc.nextLine();
             }
@@ -126,21 +120,21 @@ public class Library {
         Book temp;
 
         // based on selected type of book, create requested type
-        if (isFic) {
+        if (isNon) {
             // check if topic was successfully entered
-            if (topic.equals("")) {
+            if (topic.isEmpty()) {
                 System.out.println("Invalid entry");
                 return false;
-            } temp = new FictionBook(id, quant, title, author);}
+            } temp = new NonFictionBook(id, quant, title, author, topic);}
 
         else if (isRef) {
             // check if topic was successfully entered
-            if (topic.equals("")) {
+            if (topic.isEmpty()) {
                 System.out.println("Invalid entry");
                 return false;
             } temp = new ReferenceBook(id, quant, title, author, topic);}
 
-        else temp = new NonFictionBook(id, quant, title, author, topic);
+        else temp = new FictionBook(id, quant, title, author);
 
         // if user input invalid genre then book will be null
         // in this case inform user and return false
@@ -316,14 +310,14 @@ public class Library {
                 Please note that if the file does not exist, this operation will not complete.""");
         // get name of file and create file object
         String name = sc.nextLine();
-        File file = new File("./Resources/"+name);
+        File file = new File("DataStrucAss02/Resources/"+name);
         // check if file exists. If not, inform user and exit method
         if (!file.exists()) {
             System.out.println("That file does not exist");
             return;
         }
 
-        // when creating the bufferedwriter, it will clear the file of all text
+        // when creating the buffered writer, it will clear the file of all text
         BufferedWriter writer = new BufferedWriter(new FileWriter(file));
         // iterate through catalogue and write all books into file
         for (Book b : catalogue) {
@@ -349,7 +343,7 @@ public class Library {
 
         // get file location
         String name = sc.nextLine();
-        File file = new File("./Resources/"+name);
+        File file = new File("DataStrucAss02/Resources/"+name);
         // check if user is dumb and put file that doesn't exist
         if (!file.exists()) {
             System.out.println("That file does not exist");
@@ -368,7 +362,7 @@ public class Library {
         String author;
         String topic;
         while (temp != null) {
-            // if next line after whole book isn't a one letter code, go to next line
+            // if next line after whole book isn't a one-letter code, go to next line
             if (temp.length() > 1) {temp = reader.readLine();}
             // get char version of genre for switch
             char type = temp.charAt(0);

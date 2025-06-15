@@ -36,7 +36,7 @@ public class NonFictionBook extends Book {
      */
     @Override
     public String[] toStorage() {
-        String[] out = new String[5];
+        String[] out = new String[6];
         out[0] = "n";
         out[1] = Integer.toString(bookCode);
         out[2] = title;

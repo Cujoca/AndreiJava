@@ -46,7 +46,7 @@ public class ReferenceBook extends Book{
     @Override
     public String[] toStorage() {
         String[] out = new String[6];
-        out[0] = "f";
+        out[0] = "r";
         out[1] = Integer.toString(bookCode);
         out[2] = title;
         out[3] = Integer.toString(quantityInStock);
