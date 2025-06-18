@@ -7,8 +7,23 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6b311ec3-f978-4aa0-9f7c-1e3ea9b9ada1" name="Changes" comment="It all done :)&#10;added 2 text files for testing with assignment 2&#10;added test module for random testing things without going to a REPL&#10;fixed various things in library such as read/write and addinorder">
+    <list default="true" id="6b311ec3-f978-4aa0-9f7c-1e3ea9b9ada1" name="Changes" comment="Final touches to Assignment 2&#10;everything now works smoothly, only real changes:&#10;- changed topic to edition for referenceBook&#10;- added overloaded toString for NonFictionBook&#10;- added printing to Library.findBook">
+      <change afterPath="$PROJECT_DIR$/DataStrucLab04/DataStrucLab04.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DataStrucLab04/src/Searches.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DataStrucLab04/src/Sorts.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DataStrucLab04/src/TestSearchSort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Testing/src/SingleList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DataStrucAss02/Resources/MyLibrary1.txt" beforeDir="false" afterPath="$PROJECT_DIR$/DataStrucAss02/Resources/MyLibrary1.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DataStrucAss02/src/Library.java" beforeDir="false" afterPath="$PROJECT_DIR$/DataStrucAss02/src/Library.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaDocs/SearchesDriver.html" beforeDir="false" afterPath="$PROJECT_DIR$/JavaDocs/SearchesDriver.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaDocs/allclasses-index.html" beforeDir="false" afterPath="$PROJECT_DIR$/JavaDocs/allclasses-index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaDocs/index-files/index-6.html" beforeDir="false" afterPath="$PROJECT_DIR$/JavaDocs/index-files/index-6.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaDocs/index-files/index-9.html" beforeDir="false" afterPath="$PROJECT_DIR$/JavaDocs/index-files/index-9.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaDocs/overview-tree.html" beforeDir="false" afterPath="$PROJECT_DIR$/JavaDocs/overview-tree.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaDocs/package-summary.html" beforeDir="false" afterPath="$PROJECT_DIR$/JavaDocs/package-summary.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaDocs/package-tree.html" beforeDir="false" afterPath="$PROJECT_DIR$/JavaDocs/package-tree.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,32 +60,35 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Application.Assign1.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Assign2.executor&quot;: &quot;Run&quot;,
-    &quot;Application.BubbleSort.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Main.executor&quot;: &quot;Run&quot;,
-    &quot;Downloaded.Files.Path.Enabled&quot;: &quot;false&quot;,
-    &quot;Repository.Attach.Annotations&quot;: &quot;false&quot;,
-    &quot;Repository.Attach.JavaDocs&quot;: &quot;false&quot;,
-    &quot;Repository.Attach.Sources&quot;: &quot;false&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary&quot;: &quot;JUnit5&quot;,
-    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5&quot;: &quot;&quot;,
-    &quot;create.test.in.the.same.root&quot;: &quot;true&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/andre/IdeaProjects/AndreiSchool/DataStrucLab03&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.Assign1.executor": "Run",
+    "Application.Assign2.executor": "Run",
+    "Application.BubbleSort.executor": "Run",
+    "Application.Main.executor": "Run",
+    "Application.SearchesDriver.executor": "Run",
+    "Application.SingleList.executor": "Run",
+    "Application.TestSearchSort.executor": "Run",
+    "Downloaded.Files.Path.Enabled": "false",
+    "Repository.Attach.Annotations": "false",
+    "Repository.Attach.JavaDocs": "false",
+    "Repository.Attach.Sources": "false",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
+    "create.test.in.the.same.root": "true",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/andre/IdeaProjects/AndreiSchool/DataStrucLab03",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\andre\IdeaProjects\AndreiSchool\DataStrucAss02" />
@@ -83,7 +101,7 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Assign2">
+  <component name="RunManager" selected="Application.TestSearchSort">
     <configuration name="Assign1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Assign1" />
       <module name="DataStrucAss01" />
@@ -105,8 +123,24 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="SingleList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="SingleList" />
+      <module name="Testing" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestSearchSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="TestSearchSort" />
+      <module name="DataStrucLab04" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.TestSearchSort" />
+        <item itemvalue="Application.SingleList" />
         <item itemvalue="Application.Assign2" />
         <item itemvalue="Application.Main" />
         <item itemvalue="Application.Assign1" />
@@ -139,7 +173,10 @@
       <workItem from="1749224082167" duration="8586000" />
       <workItem from="1749481710774" duration="10536000" />
       <workItem from="1750001272775" duration="1848000" />
-      <workItem from="1750012607865" duration="1986000" />
+      <workItem from="1750012607865" duration="2436000" />
+      <workItem from="1750162202133" duration="1392000" />
+      <workItem from="1750178130608" duration="22008000" />
+      <workItem from="1750263606696" duration="1850000" />
     </task>
     <task id="LOCAL-00001" summary="Adds Files for assignment 1 in Data Structures&#10;Book - abstract parent to define the idea of a book&#10;     - ReferenceBook - class for a type of book which cannot be borrowed and is locked to 1 quantity&#10;     - FictionBook - type of book which is of the fiction genre&#10;     - NonFictionBook - type of book which is of the Non Fiction genre&#10;Library - class to hold storage of Books with logic to support&#10;Assign1 - class to hold main method">
       <option name="closed" value="true" />
@@ -173,7 +210,15 @@
       <option name="project" value="LOCAL" />
       <updated>1749947915516</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Final touches to Assignment 2&#10;everything now works smoothly, only real changes:&#10;- changed topic to edition for referenceBook&#10;- added overloaded toString for NonFictionBook&#10;- added printing to Library.findBook">
+      <option name="closed" value="true" />
+      <created>1750028694985</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1750028694985</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -196,6 +241,7 @@
     <MESSAGE value="Sends entire module to git, mainly unversioned files&#10;adds JavaDoc files for Assignment 1" />
     <MESSAGE value="formatting and comment addition to Searches.java for the array definition" />
     <MESSAGE value="It all done :)&#10;added 2 text files for testing with assignment 2&#10;added test module for random testing things without going to a REPL&#10;fixed various things in library such as read/write and addinorder" />
-    <option name="LAST_COMMIT_MESSAGE" value="It all done :)&#10;added 2 text files for testing with assignment 2&#10;added test module for random testing things without going to a REPL&#10;fixed various things in library such as read/write and addinorder" />
+    <MESSAGE value="Final touches to Assignment 2&#10;everything now works smoothly, only real changes:&#10;- changed topic to edition for referenceBook&#10;- added overloaded toString for NonFictionBook&#10;- added printing to Library.findBook" />
+    <option name="LAST_COMMIT_MESSAGE" value="Final touches to Assignment 2&#10;everything now works smoothly, only real changes:&#10;- changed topic to edition for referenceBook&#10;- added overloaded toString for NonFictionBook&#10;- added printing to Library.findBook" />
   </component>
 </project>

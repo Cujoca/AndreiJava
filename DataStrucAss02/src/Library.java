@@ -256,6 +256,7 @@ public class Library {
      * @return the index of the book
      */
     public int findBook (Scanner sc) {
+        if (catalogue.size() == 0) {return -1;}
         int findCode = -1;
         // get the requested code
         System.out.println("Enter the ID of the book you'd like to find: ");
