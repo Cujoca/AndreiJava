@@ -9,6 +9,7 @@ import java.util.Scanner;
  * @author/Professor James Mwangi PhD.
  */
 public class TestSearchSort {
+
     /**
      * Main method to execute code
      * @param args scanner input
@@ -208,8 +209,4 @@ public class TestSearchSort {
         }
         System.out.println("Thank you for using this program! have a good day");
     }
-
-
-
-
 }

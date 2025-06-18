@@ -23,8 +23,6 @@ public abstract class Sorts {
         }
     }
 
-
-
     /**
      * a quicksort implementation using primitive arrays
      * @param array to be sorted
@@ -248,4 +246,3 @@ public abstract class Sorts {
         return out;
     }
 }
-
