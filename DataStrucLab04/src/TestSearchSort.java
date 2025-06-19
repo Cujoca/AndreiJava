@@ -80,13 +80,13 @@ public class TestSearchSort {
             System.out.println("Searching for: " + elem);
             long nanoTime = System.nanoTime();
             int i = Searches.binarySearch(sortedArr, elem, 0, sortedArr.length - 1);
-            nanoTime = nanoTime - System.nanoTime();
-            if (i > 0)
+            nanoTime = System.nanoTime() - nanoTime;
+            if (i >= 0)
               System.out.println(elem + " was found at index: " + i);
             else
               System.out.println(elem + " was not found");
             System.out.println(
-                "This operation took " + nanoTime + " nanoseconds, and " + nanoTime / 1000000 + " milliseconds");
+                "This operation took " + nanoTime + " nanoseconds, " + nanoTime / 1000000 + " milliseconds");
           }
           // if has not been sorted inform user
           else
@@ -110,14 +110,14 @@ public class TestSearchSort {
           // perform search and inform user of result
           System.out.println("Searching for: " + elem);
           long nanoTime = System.nanoTime();
-          int i = Searches.linearSearch(sortedArr, elem, 0);
-          nanoTime = nanoTime - System.nanoTime();
-          if (i > 0)
+          int i = Searches.linearSearch(randArr, elem, 0);
+          nanoTime = System.nanoTime() - nanoTime;
+          if (i >= 0)
             System.out.println(elem + " was found at index: " + i);
           else
             System.out.println(elem + " was not found");
           System.out
-              .println("This operation took " + nanoTime + " nanoseconds, and " + nanoTime / 1000000 + " milliseconds");
+              .println("This operation took " + nanoTime + " nanoseconds, " + nanoTime / 1000000 + " milliseconds");
         }
         case 4 -> {
           // if has not been filled inform user

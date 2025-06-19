@@ -24,7 +24,7 @@ public abstract class Searches {
         if (arr[mid] == target) return mid;
         // if mid is smaller than target, remove upper half of search area
         // if mid is larger than target, remove lower half of search area
-        if (arr[mid] < target) return binarySearch(arr, target, left, mid - 1);
+        if (arr[mid] > target) return binarySearch(arr, target, left, mid - 1);
         else return binarySearch(arr, target, mid + 1, right);
     }
 
