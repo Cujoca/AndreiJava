@@ -7,11 +7,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6b311ec3-f978-4aa0-9f7c-1e3ea9b9ada1" name="Changes" comment="closed scanner in TestSearchSort.java">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DataStrucLab04/src/Searches.java" beforeDir="false" afterPath="$PROJECT_DIR$/DataStrucLab04/src/Searches.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DataStrucLab04/src/TestSearchSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/DataStrucLab04/src/TestSearchSort.java" afterDir="false" />
-    </list>
+    <list default="true" id="6b311ec3-f978-4aa0-9f7c-1e3ea9b9ada1" name="Changes" comment="ok finally. final final changes to lab04&#10;had to fix the binary search algorithm&#10;changed calculation for time in main for the searches" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -165,7 +161,7 @@
       <workItem from="1750178130608" duration="22008000" />
       <workItem from="1750263606696" duration="2466000" />
       <workItem from="1750280317936" duration="36000" />
-      <workItem from="1750345787368" duration="702000" />
+      <workItem from="1750345787368" duration="795000" />
     </task>
     <task id="LOCAL-00001" summary="Adds Files for assignment 1 in Data Structures&#10;Book - abstract parent to define the idea of a book&#10;     - ReferenceBook - class for a type of book which cannot be borrowed and is locked to 1 quantity&#10;     - FictionBook - type of book which is of the fiction genre&#10;     - NonFictionBook - type of book which is of the Non Fiction genre&#10;Library - class to hold storage of Books with logic to support&#10;Assign1 - class to hold main method">
       <option name="closed" value="true" />
@@ -231,7 +227,15 @@
       <option name="project" value="LOCAL" />
       <updated>1750280350478</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="ok finally. final final changes to lab04&#10;had to fix the binary search algorithm&#10;changed calculation for time in main for the searches">
+      <option name="closed" value="true" />
+      <created>1750346564556</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1750346564556</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -258,7 +262,8 @@
     <MESSAGE value="Added Lab 4, a sorting based lab&#10;- Sorts.java, a utility class containing static methods for&#10;  - bubble sort    = Sorts.bulbaSaur&#10;  - insertion sort = Sorts.insertionSort&#10;  - selection sort = Sorts.selectionSort&#10;  - quick sort     = Sorts.quickSort&#10;  - merge sort     = Sorts.mergeSort&#10;  - trim zeroes    = Sorts.trimZeroes&#10;    A method to remove hanging zeroes from a primitive int array&#10;- Searches.java, a utility class containing static methods for&#10;  - binary search  = Searches.binarySearch&#10;  - linear search  = Searches.linearSearch&#10;- TestSearchSort.java a main class to run code&#10;Including javadocs for all the above classes and methods" />
     <MESSAGE value="Just some quick cleanups to all the files in Lab4&#10; - adjusted whitespaces between some code blocks" />
     <MESSAGE value="closed scanner in TestSearchSort.java" />
-    <option name="LAST_COMMIT_MESSAGE" value="closed scanner in TestSearchSort.java" />
+    <MESSAGE value="ok finally. final final changes to lab04&#10;had to fix the binary search algorithm&#10;changed calculation for time in main for the searches" />
+    <option name="LAST_COMMIT_MESSAGE" value="ok finally. final final changes to lab04&#10;had to fix the binary search algorithm&#10;changed calculation for time in main for the searches" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -282,11 +287,6 @@
           <url>file://$PROJECT_DIR$/DataStrucLab04/src/TestSearchSort.java</url>
           <line>187</line>
           <option name="timeStamp" value="4" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/DataStrucLab04/src/TestSearchSort.java</url>
-          <line>81</line>
-          <option name="timeStamp" value="5" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

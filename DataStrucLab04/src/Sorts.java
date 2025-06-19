@@ -1,3 +1,4 @@
+import java.security.SecureRandom;
 import java.util.Random;
 
 /**
@@ -17,7 +18,7 @@ public abstract class Sorts {
      * @param array to be filled
      */
     public static void populate (int[] array) {
-        Random rand = new Random();
+        Random rand = new SecureRandom();
         for (int i = 0; i < array.length; i++) {
             array[i] = rand.nextInt(120, 1000);
         }
