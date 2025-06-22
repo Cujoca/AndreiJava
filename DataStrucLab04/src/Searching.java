@@ -6,7 +6,7 @@
  * CET-CS-Level 3
  * @author/Professor James Mwangi PhD.
  */
-public abstract class Searches {
+public abstract class Searching {
 
     /**
      * Simple recursive binary search algo

@@ -10,7 +10,7 @@ import java.util.Random;
  * CET-CS-Level 3
  * @author/Professor James Mwangi PhD.
  */
-public abstract class Sorts {
+public class SortingAlgorithms<T extends Comparable> {
 
     /**
      * populates our array with 1000 random integers

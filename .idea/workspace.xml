@@ -7,7 +7,38 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6b311ec3-f978-4aa0-9f7c-1e3ea9b9ada1" name="Changes" comment="ok finally. final final changes to lab04&#10;had to fix the binary search algorithm&#10;changed calculation for time in main for the searches" />
+    <list default="true" id="6b311ec3-f978-4aa0-9f7c-1e3ea9b9ada1" name="Changes" comment="final final final change to lab04&#10;changed random to SecureRandom">
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DataStrucLab04/JavaDocs/Searches.html" beforeDir="false" afterPath="$PROJECT_DIR$/DataStrucLab04/JavaDocs/Searches.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DataStrucLab04/JavaDocs/Sorts.html" beforeDir="false" afterPath="$PROJECT_DIR$/DataStrucLab04/JavaDocs/Sorts.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DataStrucLab04/JavaDocs/allclasses-index.html" beforeDir="false" afterPath="$PROJECT_DIR$/DataStrucLab04/JavaDocs/allclasses-index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DataStrucLab04/JavaDocs/index-files/index-1.html" beforeDir="false" afterPath="$PROJECT_DIR$/DataStrucLab04/JavaDocs/index-files/index-1.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DataStrucLab04/JavaDocs/index-files/index-2.html" beforeDir="false" afterPath="$PROJECT_DIR$/DataStrucLab04/JavaDocs/index-files/index-2.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DataStrucLab04/JavaDocs/index-files/index-3.html" beforeDir="false" afterPath="$PROJECT_DIR$/DataStrucLab04/JavaDocs/index-files/index-3.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DataStrucLab04/JavaDocs/index-files/index-4.html" beforeDir="false" afterPath="$PROJECT_DIR$/DataStrucLab04/JavaDocs/index-files/index-4.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DataStrucLab04/JavaDocs/index-files/index-5.html" beforeDir="false" afterPath="$PROJECT_DIR$/DataStrucLab04/JavaDocs/index-files/index-5.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DataStrucLab04/JavaDocs/index-files/index-6.html" beforeDir="false" afterPath="$PROJECT_DIR$/DataStrucLab04/JavaDocs/index-files/index-6.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DataStrucLab04/JavaDocs/index-files/index-7.html" beforeDir="false" afterPath="$PROJECT_DIR$/DataStrucLab04/JavaDocs/index-files/index-7.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DataStrucLab04/JavaDocs/overview-tree.html" beforeDir="false" afterPath="$PROJECT_DIR$/DataStrucLab04/JavaDocs/overview-tree.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DataStrucLab04/JavaDocs/package-summary.html" beforeDir="false" afterPath="$PROJECT_DIR$/DataStrucLab04/JavaDocs/package-summary.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DataStrucLab04/JavaDocs/package-tree.html" beforeDir="false" afterPath="$PROJECT_DIR$/DataStrucLab04/JavaDocs/package-tree.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DataStrucLab04/src/Searches.java" beforeDir="false" afterPath="$PROJECT_DIR$/DataStrucLab04/src/Searching.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DataStrucLab04/src/Sorts.java" beforeDir="false" afterPath="$PROJECT_DIR$/DataStrucLab04/src/SortingAlgorithms.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DataStrucLab04/src/TestSearchSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/DataStrucLab04/src/TestSearchSort.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaDocs/Searches.html" beforeDir="false" afterPath="$PROJECT_DIR$/JavaDocs/Searches.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaDocs/SearchesDriver.html" beforeDir="false" afterPath="$PROJECT_DIR$/JavaDocs/SearchesDriver.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaDocs/allclasses-index.html" beforeDir="false" afterPath="$PROJECT_DIR$/JavaDocs/allclasses-index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaDocs/index-files/index-1.html" beforeDir="false" afterPath="$PROJECT_DIR$/JavaDocs/index-files/index-1.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaDocs/index-files/index-2.html" beforeDir="false" afterPath="$PROJECT_DIR$/JavaDocs/index-files/index-2.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaDocs/index-files/index-3.html" beforeDir="false" afterPath="$PROJECT_DIR$/JavaDocs/index-files/index-3.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaDocs/index-files/index-5.html" beforeDir="false" afterPath="$PROJECT_DIR$/JavaDocs/index-files/index-5.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaDocs/index-files/index-7.html" beforeDir="false" afterPath="$PROJECT_DIR$/JavaDocs/index-files/index-7.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaDocs/index-files/index-9.html" beforeDir="false" afterPath="$PROJECT_DIR$/JavaDocs/index-files/index-9.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaDocs/overview-tree.html" beforeDir="false" afterPath="$PROJECT_DIR$/JavaDocs/overview-tree.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaDocs/package-summary.html" beforeDir="false" afterPath="$PROJECT_DIR$/JavaDocs/package-summary.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaDocs/package-tree.html" beforeDir="false" afterPath="$PROJECT_DIR$/JavaDocs/package-tree.html" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -43,35 +74,35 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Application.Assign1.executor": "Run",
-    "Application.Assign2.executor": "Run",
-    "Application.BubbleSort.executor": "Run",
-    "Application.Main.executor": "Run",
-    "Application.SearchesDriver.executor": "Run",
-    "Application.SingleList.executor": "Run",
-    "Application.TestSearchSort.executor": "Run",
-    "Downloaded.Files.Path.Enabled": "false",
-    "Repository.Attach.Annotations": "false",
-    "Repository.Attach.JavaDocs": "false",
-    "Repository.Attach.Sources": "false",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
-    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
-    "create.test.in.the.same.root": "true",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/andre/IdeaProjects/AndreiSchool/DataStrucLab03",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.Assign1.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Assign2.executor&quot;: &quot;Run&quot;,
+    &quot;Application.BubbleSort.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Main.executor&quot;: &quot;Run&quot;,
+    &quot;Application.SearchesDriver.executor&quot;: &quot;Run&quot;,
+    &quot;Application.SingleList.executor&quot;: &quot;Run&quot;,
+    &quot;Application.TestSearchSort.executor&quot;: &quot;Run&quot;,
+    &quot;Downloaded.Files.Path.Enabled&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.Annotations&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.JavaDocs&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.Sources&quot;: &quot;false&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary&quot;: &quot;JUnit5&quot;,
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5&quot;: &quot;&quot;,
+    &quot;create.test.in.the.same.root&quot;: &quot;true&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/andre/IdeaProjects/AndreiSchool/DataStrucLab03&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\andre\IdeaProjects\AndreiSchool\DataStrucAss02" />
@@ -162,6 +193,8 @@
       <workItem from="1750263606696" duration="2466000" />
       <workItem from="1750280317936" duration="36000" />
       <workItem from="1750345787368" duration="795000" />
+      <workItem from="1750352738809" duration="261000" />
+      <workItem from="1750610434733" duration="4724000" />
     </task>
     <task id="LOCAL-00001" summary="Adds Files for assignment 1 in Data Structures&#10;Book - abstract parent to define the idea of a book&#10;     - ReferenceBook - class for a type of book which cannot be borrowed and is locked to 1 quantity&#10;     - FictionBook - type of book which is of the fiction genre&#10;     - NonFictionBook - type of book which is of the Non Fiction genre&#10;Library - class to hold storage of Books with logic to support&#10;Assign1 - class to hold main method">
       <option name="closed" value="true" />
@@ -235,7 +268,15 @@
       <option name="project" value="LOCAL" />
       <updated>1750346564556</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="final final final change to lab04&#10;changed random to SecureRandom">
+      <option name="closed" value="true" />
+      <created>1750352779304</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1750352779304</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -263,32 +304,7 @@
     <MESSAGE value="Just some quick cleanups to all the files in Lab4&#10; - adjusted whitespaces between some code blocks" />
     <MESSAGE value="closed scanner in TestSearchSort.java" />
     <MESSAGE value="ok finally. final final changes to lab04&#10;had to fix the binary search algorithm&#10;changed calculation for time in main for the searches" />
-    <option name="LAST_COMMIT_MESSAGE" value="ok finally. final final changes to lab04&#10;had to fix the binary search algorithm&#10;changed calculation for time in main for the searches" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/DataStrucLab04/src/TestSearchSort.java</url>
-          <line>160</line>
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/DataStrucLab04/src/TestSearchSort.java</url>
-          <line>169</line>
-          <option name="timeStamp" value="2" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/DataStrucLab04/src/TestSearchSort.java</url>
-          <line>178</line>
-          <option name="timeStamp" value="3" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/DataStrucLab04/src/TestSearchSort.java</url>
-          <line>187</line>
-          <option name="timeStamp" value="4" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
+    <MESSAGE value="final final final change to lab04&#10;changed random to SecureRandom" />
+    <option name="LAST_COMMIT_MESSAGE" value="final final final change to lab04&#10;changed random to SecureRandom" />
   </component>
 </project>
