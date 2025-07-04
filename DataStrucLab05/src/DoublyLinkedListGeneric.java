@@ -1,4 +1,3 @@
-
 /**
  * Processing data using Doubly Linked List CST8130 Data Structures,
  * Computer Engineering Technology-Computer Science: Level 3
@@ -10,14 +9,33 @@
  * Professor: James Mwangi PhD.
  */
 
-class DoublyLinkedList {
-    private Node first;
-    private Node last;
+/**
+ * Generic version of a doubly linked list
+ *
+ * @param <T> type of data held within nodes
+ */
+public class DoublyLinkedListGeneric <T extends Comparable<T>> {
 
-    public DoublyLinkedList() {
-        first = null;
-        last = null;
+    /**
+     * Node class to store instances of information in the
+     * DLL data structure
+     *
+     * @param <T> Type of data held within
+     */
+    public static class Node<T extends Comparable<T>> {
+        T value;
+        public Node<T> next;
+        public Node<T> prev;
+
+        public Node (T value) {
+            this.value = value;
+            this.next = null;
+            this.prev = null;
+        }
     }
+
+    private Node<T> first;
+    private Node<T> last;
 
     public boolean isEmpty() {
         return first == null;
@@ -26,38 +44,38 @@ class DoublyLinkedList {
     /**
      * Places a new Node at the start of the list
      *
-     * @param num value of new node
+     * @param elem value of new node
      */
-    public void insertFirst(int num) {
+    public void insertFirst(T elem) {
         // if is empty, set both first and last to new node
         if (isEmpty()) {
-            this.first = new Node(num);
+            this.first = new Node<T>(elem);
             this.last = this.first;
         } else {
             // set the former first's previous to new
-            first.previous = new Node(num);
+            first.prev = new Node<>(elem);
             // set new's next to first
-            first.previous.next = first;
+            first.prev.next = first;
             // set first to new
-            first = first.previous;
+            first = first.prev;
         }
     }
 
     /**
      * Places a new Node at the end of the list
      *
-     * @param num value of new node
+     * @param elem value of new node
      */
-    public void insertLast(int num) {
+    public void insertLast(T elem) {
         // if is empty then set both first and last to new
         if (isEmpty()) {
-            this.last = new Node(num);
+            this.last = new Node<>(elem);
             this.first = this.last;
         } else {
             // set former last's next to new
-            this.last.next = new Node(num);
+            this.last.next = new Node<>(elem);
             // set new's previous to former last
-            this.last.next.previous = this.last;
+            this.last.next.prev = this.last;
             // set last to new
             this.last = this.last.next;
         }
@@ -67,31 +85,30 @@ class DoublyLinkedList {
      * Insert after a specific number
      * if number does not exist, return false
      *
-     * @param numToFind num to add new after
-     * @param newNumber value for new node
+     * @param elemFind element to add new after
+     * @param newElem value for new node
      * @return true if successful, false if not
      */
-    public boolean insertAfter(int numToFind, int newNumber) {
+    public boolean insertAfter(T elemFind, T newElem) {
         // if is empty, no node to insert after so return null
         if (isEmpty()) return false;
 
         // iterator variable
-        Node cur = this.first;
+        Node<T> cur = this.first;
         // go until end of list
         while (cur != null) {
             // if we find desired node, put in place
-            if (cur.mData == numToFind) {
+            if (cur.value.compareTo(elemFind) == 0) {
                 if (cur == last) {
-                    this.insertLast(newNumber);
+                    this.insertLast(newElem);
                     return true;
                 }
                 // set the node to the right's previous to new
-                cur.next.previous = new Node(newNumber);
+                cur.next.prev = new Node<>(newElem);
                 // set cur's next to new
-                cur.next = cur.next.previous;
+                cur.next = cur.next.prev;
                 // set cur's next to new
-                cur.next.previous = cur;
-                System.out.println("added");
+                cur.next.prev = cur;
                 return true;
             }
             cur = cur.next;
@@ -106,25 +123,25 @@ class DoublyLinkedList {
      *
      * @return node that has been deleted, null if empty
      */
-    public Node deleteFirstNode() {
+    public Node<T> deleteFirstNode() {
         // if is empty then there is no first to delete
         if (isEmpty()) return null;
 
         // if list has one node, delete and return
         if (first == last) {
-            Node temp = first;
+            Node<T> temp = first;
             first = null;
             return temp;
         }
 
         // hold former first for later
-        Node temp = first;
+        Node<T> temp = first;
         // set first to new first
         first = first.next;
         // remove connection to list
         temp.next = null;
         // remove connection from list
-        first.previous = null;
+        first.prev = null;
         return temp;
     }
 
@@ -133,23 +150,23 @@ class DoublyLinkedList {
      *
      * @return node that has been deleted, null if empty
      */
-    public Node deleteLastNode() {
+    public Node<T> deleteLastNode() {
         // if is empty then there is no last to delete
         if (isEmpty()) return null;
 
         // if list has one node, delete and return
         if (last == first) {
-            Node temp = last;
+            Node<T> temp = last;
             last = null;
             return temp;
         }
 
         // hold for later
-        Node temp = last;
+        Node<T> temp = last;
         // move last back one node
-        last = last.previous;
+        last = last.prev;
         // remove connection to list
-        temp.previous = null;
+        temp.prev = null;
         // remove connection from list
         last.next = null;
         return temp;
@@ -161,7 +178,7 @@ class DoublyLinkedList {
      * @param index node to be deleted
      * @return node that has been deleted, null if empty or invalid index
      */
-    public Node deleteSpecificNode(int index) {
+    public Node<T> deleteSpecificNode(int index) {
         // if is empty then there is no node to delete
         if (isEmpty()) return null;
 
@@ -169,7 +186,7 @@ class DoublyLinkedList {
         if (index == 0) return deleteFirstNode();
 
         // iterator variable
-        Node cur = first;
+        Node<T> cur = first;
         // index iterator
         int i = 0;
 
@@ -184,12 +201,12 @@ class DoublyLinkedList {
         // if cur is null then is not in list
         if (cur != null) {
             // set cur's previous' next to cur's next
-            cur.previous.next = cur.next;
+            cur.prev.next = cur.next;
             // set cur's next's previous to cur's previous
-            cur.next.previous = cur.previous;
+            cur.next.prev = cur.prev;
             // remove connections to list
             cur.next = null;
-            cur.previous = null;
+            cur.prev = null;
             return cur;
         }
         return null;
@@ -203,11 +220,11 @@ class DoublyLinkedList {
         if (isEmpty()) return;
 
         // iterator variable
-        Node cur = first;
+        Node<T> cur = first;
         int i = 0;
         while (cur != null) {
             // go through all elements and print index and data
-            System.out.println("Node[" + i + "] = " + cur.mData);
+            System.out.println("Node[" + i + "] = " + cur.value.toString());
             cur = cur.next;
             i++;
         }
@@ -221,7 +238,7 @@ class DoublyLinkedList {
         if (isEmpty()) return;
 
         // iterator variables
-        Node cur = first;
+        Node<T> cur = first;
         int i = 0;
         // first we need to iterate to end of list so that
         // we know how many elements there are in the list
@@ -232,31 +249,10 @@ class DoublyLinkedList {
 
         // now that we have our size, iterate backwards and print
         while (cur != null) {
-            System.out.println("Node[" + i + "] = " + cur.mData);
-            cur = cur.previous;
+            System.out.println("Node[" + i + "] = " + cur.value.toString());
+            cur = cur.prev;
             i--;
         }
 
     }
-
-    /**
-     * Items contained within the DLL
-     */
-    class Node {
-        public int mData; // data item
-        public Node next; // next node in list
-        public Node previous; // previous node in list
-
-        public Node(int d) // constructor
-        {
-            mData = d;
-        }
-
-        public void displayNode() {
-            System.out.print(mData + " ");
-        }
-
-
-    }
-
 }

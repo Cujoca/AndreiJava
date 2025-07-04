@@ -27,7 +27,11 @@ public class Assign2 {
                     6. Save library catalogue to file
                     7. Read library catalogue from file
                     8. Exit""");
-            choice = Integer.parseInt(sc.nextLine());
+            try {
+                choice = Integer.parseInt(sc.nextLine());
+            } catch (NumberFormatException e) {
+                choice = 0;
+            }
 
             switch (choice) {
                 case 1 -> lib.addBook(sc);
