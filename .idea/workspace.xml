@@ -7,37 +7,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6b311ec3-f978-4aa0-9f7c-1e3ea9b9ada1" name="Changes" comment="final final final change to lab04&#10;changed random to SecureRandom">
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+    <list default="true" id="6b311ec3-f978-4aa0-9f7c-1e3ea9b9ada1" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/DataStrucLab05/DataStrucLab05.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DataStrucLab04/JavaDocs/Searches.html" beforeDir="false" afterPath="$PROJECT_DIR$/DataStrucLab04/JavaDocs/Searches.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DataStrucLab04/JavaDocs/Sorts.html" beforeDir="false" afterPath="$PROJECT_DIR$/DataStrucLab04/JavaDocs/Sorts.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DataStrucLab04/JavaDocs/allclasses-index.html" beforeDir="false" afterPath="$PROJECT_DIR$/DataStrucLab04/JavaDocs/allclasses-index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DataStrucLab04/JavaDocs/index-files/index-1.html" beforeDir="false" afterPath="$PROJECT_DIR$/DataStrucLab04/JavaDocs/index-files/index-1.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DataStrucLab04/JavaDocs/index-files/index-2.html" beforeDir="false" afterPath="$PROJECT_DIR$/DataStrucLab04/JavaDocs/index-files/index-2.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DataStrucLab04/JavaDocs/index-files/index-3.html" beforeDir="false" afterPath="$PROJECT_DIR$/DataStrucLab04/JavaDocs/index-files/index-3.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DataStrucLab04/JavaDocs/index-files/index-4.html" beforeDir="false" afterPath="$PROJECT_DIR$/DataStrucLab04/JavaDocs/index-files/index-4.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DataStrucLab04/JavaDocs/index-files/index-5.html" beforeDir="false" afterPath="$PROJECT_DIR$/DataStrucLab04/JavaDocs/index-files/index-5.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DataStrucLab04/JavaDocs/index-files/index-6.html" beforeDir="false" afterPath="$PROJECT_DIR$/DataStrucLab04/JavaDocs/index-files/index-6.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DataStrucLab04/JavaDocs/index-files/index-7.html" beforeDir="false" afterPath="$PROJECT_DIR$/DataStrucLab04/JavaDocs/index-files/index-7.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DataStrucLab04/JavaDocs/overview-tree.html" beforeDir="false" afterPath="$PROJECT_DIR$/DataStrucLab04/JavaDocs/overview-tree.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DataStrucLab04/JavaDocs/package-summary.html" beforeDir="false" afterPath="$PROJECT_DIR$/DataStrucLab04/JavaDocs/package-summary.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DataStrucLab04/JavaDocs/package-tree.html" beforeDir="false" afterPath="$PROJECT_DIR$/DataStrucLab04/JavaDocs/package-tree.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DataStrucLab04/src/Searches.java" beforeDir="false" afterPath="$PROJECT_DIR$/DataStrucLab04/src/Searching.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DataStrucLab04/src/Sorts.java" beforeDir="false" afterPath="$PROJECT_DIR$/DataStrucLab04/src/SortingAlgorithms.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DataStrucLab04/src/TestSearchSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/DataStrucLab04/src/TestSearchSort.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JavaDocs/Searches.html" beforeDir="false" afterPath="$PROJECT_DIR$/JavaDocs/Searches.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JavaDocs/SearchesDriver.html" beforeDir="false" afterPath="$PROJECT_DIR$/JavaDocs/SearchesDriver.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JavaDocs/allclasses-index.html" beforeDir="false" afterPath="$PROJECT_DIR$/JavaDocs/allclasses-index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JavaDocs/index-files/index-1.html" beforeDir="false" afterPath="$PROJECT_DIR$/JavaDocs/index-files/index-1.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JavaDocs/index-files/index-2.html" beforeDir="false" afterPath="$PROJECT_DIR$/JavaDocs/index-files/index-2.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JavaDocs/index-files/index-3.html" beforeDir="false" afterPath="$PROJECT_DIR$/JavaDocs/index-files/index-3.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JavaDocs/index-files/index-5.html" beforeDir="false" afterPath="$PROJECT_DIR$/JavaDocs/index-files/index-5.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JavaDocs/index-files/index-7.html" beforeDir="false" afterPath="$PROJECT_DIR$/JavaDocs/index-files/index-7.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JavaDocs/index-files/index-9.html" beforeDir="false" afterPath="$PROJECT_DIR$/JavaDocs/index-files/index-9.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JavaDocs/overview-tree.html" beforeDir="false" afterPath="$PROJECT_DIR$/JavaDocs/overview-tree.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JavaDocs/package-summary.html" beforeDir="false" afterPath="$PROJECT_DIR$/JavaDocs/package-summary.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JavaDocs/package-tree.html" beforeDir="false" afterPath="$PROJECT_DIR$/JavaDocs/package-tree.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -194,7 +167,10 @@
       <workItem from="1750280317936" duration="36000" />
       <workItem from="1750345787368" duration="795000" />
       <workItem from="1750352738809" duration="261000" />
-      <workItem from="1750610434733" duration="4724000" />
+      <workItem from="1750610434733" duration="8239000" />
+      <workItem from="1750623220544" duration="1765000" />
+      <workItem from="1751476258744" duration="407000" />
+      <workItem from="1751485333757" duration="4329000" />
     </task>
     <task id="LOCAL-00001" summary="Adds Files for assignment 1 in Data Structures&#10;Book - abstract parent to define the idea of a book&#10;     - ReferenceBook - class for a type of book which cannot be borrowed and is locked to 1 quantity&#10;     - FictionBook - type of book which is of the fiction genre&#10;     - NonFictionBook - type of book which is of the Non Fiction genre&#10;Library - class to hold storage of Books with logic to support&#10;Assign1 - class to hold main method">
       <option name="closed" value="true" />
@@ -276,7 +252,15 @@
       <option name="project" value="LOCAL" />
       <updated>1750352779304</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="final final final final changes to lab04&#10;James wants this done in an incredibly stupid way&#10;so I had to change it to accommodate&#10; - when trying to sort/linear search before initializing array, now initializes implicitly instead of warning user&#10; - when trying to binary search array, will implicitly fill and/or sort array as needed&#10; - sub menu to choose which sort to do now repeats until user wants to exit back to main menu&#10; - SortingAlgorithms.java is now no longer abstract and has &lt;T extends Comparable&gt; in the class def, despite not doing anything with generics inside the actual class&#10; - main now prints out randArr and/or sortedArr whenever needed (because why yes, the user does in fact want to read through every single element of a 1000 length array every single fucking time they want to do something with it)">
+      <option name="closed" value="true" />
+      <created>1750617227807</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1750617227807</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -305,6 +289,7 @@
     <MESSAGE value="closed scanner in TestSearchSort.java" />
     <MESSAGE value="ok finally. final final changes to lab04&#10;had to fix the binary search algorithm&#10;changed calculation for time in main for the searches" />
     <MESSAGE value="final final final change to lab04&#10;changed random to SecureRandom" />
-    <option name="LAST_COMMIT_MESSAGE" value="final final final change to lab04&#10;changed random to SecureRandom" />
+    <MESSAGE value="final final final final changes to lab04&#10;James wants this done in an incredibly stupid way&#10;so I had to change it to accommodate&#10; - when trying to sort/linear search before initializing array, now initializes implicitly instead of warning user&#10; - when trying to binary search array, will implicitly fill and/or sort array as needed&#10; - sub menu to choose which sort to do now repeats until user wants to exit back to main menu&#10; - SortingAlgorithms.java is now no longer abstract and has &lt;T extends Comparable&gt; in the class def, despite not doing anything with generics inside the actual class&#10; - main now prints out randArr and/or sortedArr whenever needed (because why yes, the user does in fact want to read through every single element of a 1000 length array every single fucking time they want to do something with it)" />
+    <option name="LAST_COMMIT_MESSAGE" value="final final final final changes to lab04&#10;James wants this done in an incredibly stupid way&#10;so I had to change it to accommodate&#10; - when trying to sort/linear search before initializing array, now initializes implicitly instead of warning user&#10; - when trying to binary search array, will implicitly fill and/or sort array as needed&#10; - sub menu to choose which sort to do now repeats until user wants to exit back to main menu&#10; - SortingAlgorithms.java is now no longer abstract and has &lt;T extends Comparable&gt; in the class def, despite not doing anything with generics inside the actual class&#10; - main now prints out randArr and/or sortedArr whenever needed (because why yes, the user does in fact want to read through every single element of a 1000 length array every single fucking time they want to do something with it)" />
   </component>
 </project>
