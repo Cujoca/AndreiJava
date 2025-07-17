@@ -79,6 +79,8 @@ class TestDLLApp {
 		list2.deleteFirstNode();
 		list2.deleteLastNode();
 		list2.deleteSpecificNode(2);
+		list2.printForwardsWithIndex();
+		System.out.println("\n");
 
 		// test insertAfter on an element not in the list
 		// and one element which is in the list
