@@ -2,6 +2,14 @@ import java.io.File;
 import java.io.FileNotFoundException;
 import java.util.*;
 
+/**
+ * Logic class for handling of data
+ *
+ * Author: Andrei Cojocaru, 041032238
+ * Professor: James Mwangi
+ * Course: CST8130 Data Structures
+ * Section: 301
+ */
 public class SetMapLib {
 
     /**
@@ -13,14 +21,14 @@ public class SetMapLib {
     public static TreeMap<Integer, String> fillMap () throws FileNotFoundException {
         // init variables
         TreeMap<Integer, String> out = new TreeMap<>();
-        File file = new File("/DataStrucLab06/resources/customers.txt");
+        File file = new File("./DataStrucLab06/resources/customers.txt");
         Scanner scanner = new Scanner(file);
 
         // get all data from text file into map
         while (scanner.hasNextLine()) {
             String temp = scanner.nextLine();
             String[] tempArr = temp.split(",");
-            out.put(Integer.parseInt(tempArr[1]), tempArr[0]);
+            out.put(Integer.parseInt(tempArr[1].trim()), tempArr[0]);
         }
 
         // inform user and exit
@@ -60,7 +68,7 @@ public class SetMapLib {
 
         // print vals
         System.out.print("\nValues in Ascending Order: ");
-        for (String key : map.values()) {System.out.print(key + " ");}
+        for (String key : map.values()) {System.out.print(key + ", ");}
 
 
     }
@@ -74,11 +82,17 @@ public class SetMapLib {
         // put vals into arraylist
         List<String> valsDes = new ArrayList<>(map.values());
 
+
         // reverse arraylist and print
-        Collections.sort(valsDes, Collections.reverseOrder());
+        Collections.sort(valsDes, new Comparator<String>() {
+            @Override
+            // sort in reverse by creating comparator implicitly and that smaller is to right
+            public int compare(String str1, String str2) {return str2.compareTo(str1);}
+        });
         System.out.print("Keys in Descending Order:");
-        for (String val : valsDes) {System.out.print(" " + val);}
+        for (String val : valsDes) {System.out.print(", " + val);}
     }
+
 
     /**
      * puts values and keys into their own respective sets and then prints
@@ -88,8 +102,8 @@ public class SetMapLib {
     public static void getIntoSets (TreeMap<Integer, String> map) {
         // create holder collections
         Set<Map.Entry<Integer, String>> set = map.entrySet();
-        HashSet<Integer> keys = new HashSet<>();
-        HashSet<String> vals = new HashSet<>();
+        TreeSet<Integer> keys = new TreeSet<>();
+        TreeSet<String> vals = new TreeSet<>();
 
         // put all keys into keyset and values into valset
         for (Map.Entry<Integer, String> entry : set) {
@@ -99,10 +113,10 @@ public class SetMapLib {
         }
         // print out
         System.out.print("Keys: ");
-        for (Integer key : keys) System.out.print(key + " ");
+        for (Integer key : keys) System.out.print(key + ", ");
 
         System.out.print("\nValues: ");
-        for (String val : vals) System.out.print(val + " ");
+        for (String val : vals) System.out.print(val + ", ");
 
     }
 

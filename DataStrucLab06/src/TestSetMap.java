@@ -2,17 +2,27 @@ import java.io.FileNotFoundException;
 import java.util.Scanner;
 import java.util.TreeMap;
 
+/**
+ * Main class to run code
+ *
+ * Author: Andrei Cojocaru, 041032238
+ * Professor: James Mwangi
+ * Course: CST8130 Data Structures
+ * Section: 301
+ */
 public class TestSetMap {
 
     public static void main(String[] args) throws FileNotFoundException {
+        // init starter vars
         TreeMap<Integer, String> customers = new TreeMap<>();
         boolean filledMap = false;
         boolean keepGoing = true;
         Scanner sc = new Scanner(System.in);
 
         while (keepGoing) {
+            // show menu to user
             System.out.println("""
-                    1. Import data from text file
+                    \n1. Import data from text file
                     2. Display Map
                     3. Get Value
                     4. Put into sets and print
@@ -23,49 +33,65 @@ public class TestSetMap {
             int choice = getInt(sc);
 
             switch (choice) {
-                case 1:
+                case 1: // fill map from text file
+                    // call fill method
                     customers = SetMapLib.fillMap();
                     filledMap = true;
                     break;
-                case 2:
+                case 2: // print out map
                     if (filledMap) {
+                        // call print method
                         SetMapLib.printMap(customers);
                     } else {
                         System.out.println("Whoops, you need to import your data first");
                     }
                     break;
-                case 3:
+                case 3: // retrieve a value from the map
                     if (filledMap) {
+                        // get user input
                         int key = getInt(sc);
+                        // grab value
                         String out = SetMapLib.getVal(customers, key);
+                        // if is null then does not exist
                         if (out != null) {
                             System.out.printf("value of %d is: %s\n", key, out);
-                        }
+                        } else {System.out.println("Whoops, you need to import your data first");}
                     }
                     break;
-                case 4:
-                    if (filledMap) {SetMapLib.getIntoSets(customers);}
+                case 4: // print keys and vals as sets
+                    if (filledMap) {
+                        // call print method
+                        SetMapLib.getIntoSets(customers);
+                        System.out.println("\nThe above values are contained in sets, so there are no duplicates");
+                    }
                     else System.out.println("Whoops, you need to import your data first");
                     break;
-                case 5:
+                case 5: // sort vals in descending order and print
+                    // call print method
                     if (filledMap) {SetMapLib.printValuesDes(customers);}
                     else System.out.println("Whoops, you need to import your data first");
                     break;
-                case 6:
-                    System.out.println("Please put your new entry (Name, ID");
+                case 6: // add new entry
+                    System.out.println("Please put your new entry (Name, ID)");
+                    // get entry
                     String[] temp = sc.nextLine().split(", ");
                     try {
+                        // if splitted string is not 2 elements then is invalid entry
                         if (temp.length != 2) throw new NumberFormatException();
-                        int key = Integer.parseInt(temp[1]);
+                        // get key
+                        int key = Integer.parseInt(temp[1].trim());
                         customers.put(key, temp[0]);
+                        // if invalid entry inform user and break back to menu
                     } catch (NumberFormatException e) {
-                        System.out.println("Please enter a valid key");
+                        System.out.println("Please enter a valid ID, it should be an integer");
                     }
                     break;
-                case 7:
+                case 7: // exit
+                    // inform user and set control variable to false
+                    System.out.println("Exiting, program made by Andrei Cojocaru");
                     keepGoing = false;
                     break;
-                default:
+                default: // in case user doesn't realize what a menu is
                     System.out.println("Invalid choice");
                     break;
             }

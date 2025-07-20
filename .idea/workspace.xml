@@ -7,15 +7,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6b311ec3-f978-4aa0-9f7c-1e3ea9b9ada1" name="Changes" comment="Generated JavaDocs for Lab 05&#10;located within DataStrucLab05/JavaDoc">
-      <change afterPath="$PROJECT_DIR$/DataStrucAss03/DataStrucAss03.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DataStrucLab06/DataStrucLab06.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DataStrucLab06/src/SetMapLib.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DataStrucLab06/src/TestSetMap.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Testing/src/Hybrid10.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+    <list default="true" id="6b311ec3-f978-4aa0-9f7c-1e3ea9b9ada1" name="Changes" comment="Created and started Lab 05&#10;this lab is centered around designing a doubly linked list. Added DoublyLinkedList.java and TestDLLAPP.java.&#10;TODO - create generic version of DLL and implement all relevant methods.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DataStrucLab05/src/TestDLLApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/DataStrucLab05/src/TestDLLApp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DataStrucLab06/src/SetMapLib.java" beforeDir="false" afterPath="$PROJECT_DIR$/DataStrucLab06/src/SetMapLib.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DataStrucLab06/src/TestSetMap.java" beforeDir="false" afterPath="$PROJECT_DIR$/DataStrucLab06/src/TestSetMap.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,18 +32,6 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
     <option name="UPDATE_TYPE" value="REBASE" />
   </component>
-  <component name="GitHubPullRequestSearchHistory">{
-  &quot;lastFilter&quot;: {
-    &quot;state&quot;: &quot;OPEN&quot;,
-    &quot;assignee&quot;: &quot;Cujoca&quot;
-  }
-}</component>
-  <component name="GithubPullRequestsUISettings">{
-  &quot;selectedUrlAndAccountId&quot;: {
-    &quot;url&quot;: &quot;git@github.com:Cujoca/AndreiJava.git&quot;,
-    &quot;accountId&quot;: &quot;2d4cfd26-0144-42f2-8785-1374f3579109&quot;
-  }
-}</component>
   <component name="ProjectCodeStyleSettingsMigration">
     <option name="version" value="2" />
   </component>
@@ -64,37 +47,37 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Application.Assign1.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Assign2.executor&quot;: &quot;Run&quot;,
-    &quot;Application.BubbleSort.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Hybrid10.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Main.executor&quot;: &quot;Run&quot;,
-    &quot;Application.SearchesDriver.executor&quot;: &quot;Run&quot;,
-    &quot;Application.SingleList.executor&quot;: &quot;Run&quot;,
-    &quot;Application.TestDLLApp.executor&quot;: &quot;Run&quot;,
-    &quot;Application.TestSearchSort.executor&quot;: &quot;Run&quot;,
-    &quot;Downloaded.Files.Path.Enabled&quot;: &quot;false&quot;,
-    &quot;Repository.Attach.Annotations&quot;: &quot;false&quot;,
-    &quot;Repository.Attach.JavaDocs&quot;: &quot;false&quot;,
-    &quot;Repository.Attach.Sources&quot;: &quot;false&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary&quot;: &quot;JUnit5&quot;,
-    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5&quot;: &quot;&quot;,
-    &quot;create.test.in.the.same.root&quot;: &quot;true&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/andre/IdeaProjects/AndreiSchool/DataStrucLab03&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.Assign1.executor": "Run",
+    "Application.Assign2.executor": "Run",
+    "Application.BubbleSort.executor": "Run",
+    "Application.Main.executor": "Run",
+    "Application.SearchesDriver.executor": "Run",
+    "Application.SingleList.executor": "Run",
+    "Application.TestDLLApp.executor": "Run",
+    "Application.TestSearchSort.executor": "Run",
+    "Application.TestSetMap.executor": "Run",
+    "Downloaded.Files.Path.Enabled": "false",
+    "Repository.Attach.Annotations": "false",
+    "Repository.Attach.JavaDocs": "false",
+    "Repository.Attach.Sources": "false",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
+    "create.test.in.the.same.root": "true",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/andre/IdeaProjects/AndreiSchool/DataStrucLab03",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\andre\IdeaProjects\AndreiSchool\DataStrucAss02" />
@@ -103,24 +86,14 @@
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
     </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/DataStrucLab06/resources" />
-    </key>
     <key name="CreateTestDialog.RecentsKey">
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Hybrid10">
+  <component name="RunManager" selected="Application.TestSetMap">
     <configuration name="Assign2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Assign2" />
       <module name="DataStrucAss02" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Hybrid10" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Hybrid10" />
-      <module name="Testing" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -146,9 +119,16 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="TestSetMap" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="TestSetMap" />
+      <module name="DataStrucLab06" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Hybrid10" />
+        <item itemvalue="Application.TestSetMap" />
         <item itemvalue="Application.TestDLLApp" />
         <item itemvalue="Application.TestSearchSort" />
         <item itemvalue="Application.SingleList" />
@@ -193,12 +173,7 @@
       <workItem from="1750623220544" duration="1765000" />
       <workItem from="1751476258744" duration="407000" />
       <workItem from="1751485333757" duration="4329000" />
-      <workItem from="1751825099147" duration="54000" />
-      <workItem from="1751976816297" duration="62000" />
-      <workItem from="1751976929339" duration="2145000" />
-      <workItem from="1752684291601" duration="1922000" />
-      <workItem from="1752696997650" duration="1417000" />
-      <workItem from="1752774405056" duration="5207000" />
+      <workItem from="1753023842989" duration="7855000" />
     </task>
     <task id="LOCAL-00001" summary="Adds Files for assignment 1 in Data Structures&#10;Book - abstract parent to define the idea of a book&#10;     - ReferenceBook - class for a type of book which cannot be borrowed and is locked to 1 quantity&#10;     - FictionBook - type of book which is of the fiction genre&#10;     - NonFictionBook - type of book which is of the Non Fiction genre&#10;Library - class to hold storage of Books with logic to support&#10;Assign1 - class to hold main method">
       <option name="closed" value="true" />
@@ -288,15 +263,7 @@
       <option name="project" value="LOCAL" />
       <updated>1750617227807</updated>
     </task>
-    <task id="LOCAL-00012" summary="Generated JavaDocs for Lab 05&#10;located within DataStrucLab05/JavaDoc">
-      <option name="closed" value="true" />
-      <created>1751825143767</created>
-      <option name="number" value="00012" />
-      <option name="presentableId" value="LOCAL-00012" />
-      <option name="project" value="LOCAL" />
-      <updated>1751825143767</updated>
-    </task>
-    <option name="localTasksCounter" value="13" />
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -326,22 +293,6 @@
     <MESSAGE value="ok finally. final final changes to lab04&#10;had to fix the binary search algorithm&#10;changed calculation for time in main for the searches" />
     <MESSAGE value="final final final change to lab04&#10;changed random to SecureRandom" />
     <MESSAGE value="final final final final changes to lab04&#10;James wants this done in an incredibly stupid way&#10;so I had to change it to accommodate&#10; - when trying to sort/linear search before initializing array, now initializes implicitly instead of warning user&#10; - when trying to binary search array, will implicitly fill and/or sort array as needed&#10; - sub menu to choose which sort to do now repeats until user wants to exit back to main menu&#10; - SortingAlgorithms.java is now no longer abstract and has &lt;T extends Comparable&gt; in the class def, despite not doing anything with generics inside the actual class&#10; - main now prints out randArr and/or sortedArr whenever needed (because why yes, the user does in fact want to read through every single element of a 1000 length array every single fucking time they want to do something with it)" />
-    <MESSAGE value="Generated JavaDocs for Lab 05&#10;located within DataStrucLab05/JavaDoc" />
-    <option name="LAST_COMMIT_MESSAGE" value="Generated JavaDocs for Lab 05&#10;located within DataStrucLab05/JavaDoc" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-method">
-          <url>file://$PROJECT_DIR$/DataStrucLab04/src/Searching.java</url>
-          <line>18</line>
-          <properties class="Searching" method="binarySearch">
-            <option name="EMULATED" value="true" />
-            <option name="WATCH_EXIT" value="false" />
-          </properties>
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
+    <option name="LAST_COMMIT_MESSAGE" value="final final final final changes to lab04&#10;James wants this done in an incredibly stupid way&#10;so I had to change it to accommodate&#10; - when trying to sort/linear search before initializing array, now initializes implicitly instead of warning user&#10; - when trying to binary search array, will implicitly fill and/or sort array as needed&#10; - sub menu to choose which sort to do now repeats until user wants to exit back to main menu&#10; - SortingAlgorithms.java is now no longer abstract and has &lt;T extends Comparable&gt; in the class def, despite not doing anything with generics inside the actual class&#10; - main now prints out randArr and/or sortedArr whenever needed (because why yes, the user does in fact want to read through every single element of a 1000 length array every single fucking time they want to do something with it)" />
   </component>
 </project>
