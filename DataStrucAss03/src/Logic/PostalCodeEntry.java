@@ -1,6 +1,6 @@
+package Logic;
 
 import java.security.SecureRandom;
-import java.util.Random;
 
 /**
  * Starter file for Assigment3 for CST8130
@@ -72,7 +72,7 @@ public class PostalCodeEntry {
 	// visibility
 	// provide a seed value to get same random sequence
 	// remove seed after testing
-//	final static SecureRandom rand = new SecureRandom("abcdefghijklmnop".getBytes());
+	// final static SecureRandom rand = new SecureRandom("abcdefghijklmnop".getBytes());
 	
 	final static SecureRandom rand = new SecureRandom();
 	final static String alpha = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";

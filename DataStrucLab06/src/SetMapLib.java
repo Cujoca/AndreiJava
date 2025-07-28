@@ -108,7 +108,6 @@ public class SetMapLib {
         // put all keys into keyset and values into valset
         for (Map.Entry<Integer, String> entry : set) {
             keys.add(entry.getKey());
-            if (vals.contains(entry.getValue())) continue;
             vals.add(entry.getValue());
         }
         // print out
